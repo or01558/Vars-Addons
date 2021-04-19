@@ -1,6 +1,6 @@
 {
-    "name": "@or01558/vars-addons",
-    "version": "1.0.8",
+    "name": "vars-addons",
+    "version": "1.0.9",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
         "url": "git@github.com:or01558/vars-Addons.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/or01558"
+        "registry": "https://registry.npmjs.org"
     },
     "devDependencies": {
         "nodemon": "^2.0.7"

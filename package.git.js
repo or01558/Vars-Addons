@@ -21,8 +21,8 @@ module.exports.git = JSON.parse({
 });
 
 module.exports.npm = JSON.parse({
-    "name": "@or01558/vars-addons",
-    "version": "1.0.8",
+    "name": "vars-addons",
+    "version": "1.0.9",
     "description": "",
     "main": "index.js",
     "scripts": {
