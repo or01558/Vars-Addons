@@ -1,10 +1,11 @@
 "use strict";
 const fs = require("fs");
+const path = require("path");
 class Addons {
 	static #list = {};
 
 	static initFiles() {
-		const files = fs.readdirSync("./libs/");
+		const files = fs.readdirSync(path.join(__dirname,"libs"));
 		files.forEach((file) => {
 			const fileName = file.split(".")[0];
 			const addon = require(`./libs/${fileName}`);
